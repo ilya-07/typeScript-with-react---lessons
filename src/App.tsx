@@ -2,7 +2,7 @@ import React from "react";
 import Banner from "./common/component/banner/Banner";
 import Container from "./common/component/container/Container";
 import Header from "./common/component/header/Header";
-import Article from "./modules/feed/article/Article";
+import Feed from "./modules/feed/components/feed/Feed";
 
 type Props = {};
 
@@ -11,7 +11,7 @@ const App: React.FC = ({}: Props) => {
     <div className="">
       <Header />
       <Banner />
-      <Article />
+      <Feed />
     </div>
   );
 };
